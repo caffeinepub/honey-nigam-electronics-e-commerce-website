@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, theme provider, and layout structure including header, footer, and profile setup modal.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations with proper Category enum import and type usage for type-safe backend interactions.",
+  "frontend/src/components/Header.tsx": "Responsive navigation header with logo, cart badge, user profile display, authentication button, and mobile menu support.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with branding and caffeine.ai attribution.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile creation requiring name, email, and shipping address.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card component displaying product image, name, description, price, stock status, and add-to-cart button.",
+  "frontend/src/pages/HomePage.tsx": "Main product browsing page with hero banner, search, category filters using Category enum, sorting options, product grid, and admin panel access for admins.",
+  "frontend/src/pages/ProductDetailPage.tsx": "Detailed product view page with large image, full description, quantity selector, and add-to-cart functionality.",
+  "frontend/src/pages/CartPage.tsx": "Shopping cart page displaying cart items with quantity controls, item removal, and checkout button with order summary.",
+  "frontend/src/pages/CheckoutPage.tsx": "Checkout page showing shipping information, order items review, order summary, and place order functionality.",
+  "frontend/src/pages/OrderHistoryPage.tsx": "Order history page displaying all past orders with items, dates, and totals for authenticated users.",
+  "frontend/src/pages/AdminPage.tsx": "Admin panel for product management with add, edit, and delete functionality using proper Category enum values from the backend interface.",
+  "frontend/src/index.css": "Global styles with dark theme OKLCH color system featuring cyan/blue neon accents for tech aesthetic."
+}
